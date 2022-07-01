@@ -34,7 +34,7 @@ x = file.read()
 x = x.split("\n")
 maybetz = ""
 ctovet1 = ""
-for i in range(len(x) - 4):
+for i in range(len(x) - 1):
     y = (x[i].split(","))
     isvote.write(str("0" in y[-1]).replace("'", "") + "\n")
     name.write(str(y[1]).replace("'", "") + "\n")
