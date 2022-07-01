@@ -21,7 +21,7 @@ def CheckID(ID):
         return True
     else:
         return False
-file = open("elctor.txt", "r", encoding="utf8")
+file = open(input("enter file link here\n"), "r", encoding="utf8")
 ctovet = open("ctovet.txt", "w", encoding="utf8")
 city = open("city.txt", "w", encoding="utf8")
 isvote = open("isvote.txt", "w", encoding="utf8")
